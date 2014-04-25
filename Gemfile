@@ -49,6 +49,9 @@ gem 'simple_form'
 gem 'skim'
 gem 'gon'
 
+gem 'resque'
+gem 'resque-scheduler'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
