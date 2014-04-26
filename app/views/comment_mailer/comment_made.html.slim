@@ -1,7 +1,7 @@
 h1 Dear #{@mail_data[:author]},
 p
   ' Our sample application kindly inform you that
-  =' @mail_data[:commenter].blank? ? 'Anonymous' : @mail_data[:commenter].blank?
+  =' @mail_data[:commenter].blank? ? 'Anonymous' : @mail_data[:commenter]
   ' at
   =' link_to @mail_data[:commenter_email], "mailto:#{@mail_data[:commenter_email]}"
   ' has recently made a comment titled «#{@mail_data[:comment_title]}» saying «#{@mail_data[:comment_content]}» to your post «#{@mail_data[:post]}».
